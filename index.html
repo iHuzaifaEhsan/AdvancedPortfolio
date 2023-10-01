@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Huzaifa Ehsan - Portfolio</title>
+    <title>Huzaifa Ehsan</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
@@ -17,7 +17,7 @@
       <!-- Header -->
       <nav class="navbar">
         <div class="max-width">
-          <div class="logo"><a href="#"><span>Huzaifa</span><span>Ehsan</span></a></div>
+          <div class="logo"><a href="#"><span>Huzaifa</span><span> Ehsan</span></a></div>
           <ul class="menu">
             <li><a href="#home" class="menu-btn"><strong>Home</strong></a></li>
             <li><a href="#about" class="menu-btn"><strong>About</strong></a></li>
@@ -289,23 +289,23 @@
             <!-- Reach -->
             <div class="column right">
               <div class="text">Message me</div>
-              <form action="#">
+              <form id="submit" action="">
                 <div class="fields">
                   <div class="field name">
-                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" id="naam" placeholder="Your Name" required>
                   </div>
                   <div class="field email">
-                    <input type="email" placeholder="Your Email" required>
+                    <input type="email" id="emaal" placeholder="Your Email" required>
                   </div>
                 </div>
                 <div class="field">
-                  <input type="text" placeholder="Subject" required>
+                  <input type="text" id="sujbect" placeholder="subject" required>
                 </div>
                 <div class="field textarea">
-                  <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                  <textarea id="mosaj" cols="30" rows="10" placeholder="Message.." required></textarea>
                 </div>
                 <div class="button-area">
-                  <button type="submit">Send message</button>
+                  <button type="submit" value="Send" onclick="Send()">Send message</button>
                 </div>
               </form>
             </div>
@@ -325,5 +325,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
     <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </body>
 </html>
