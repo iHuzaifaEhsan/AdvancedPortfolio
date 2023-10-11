@@ -212,7 +212,7 @@
   /*  Home  */
   .home {
     display: flex;
-    background: url("main") no-repeat
+    background: url("main.jpg") no-repeat
       center;
     height: 100vh;
     color: white;
