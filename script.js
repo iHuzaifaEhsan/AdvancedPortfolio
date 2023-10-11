@@ -41,7 +41,7 @@ $(document).ready(function () {
   var typed = new Typed(".typing", {
     strings: [
       "Web 3.0 Developer",
-      "Software Develor",
+      "Software Developer",
       "App Developer",
     ],
     typeSpeed: 100,
@@ -52,7 +52,7 @@ $(document).ready(function () {
   var typed = new Typed(".typing-2", {
     strings: [
       "Web 3.0 Developer",
-      "Software Develor",
+      "Software Developer",
       "App Developer",
     ],
     typeSpeed: 100,
