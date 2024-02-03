@@ -482,27 +482,31 @@
   }
   
   .skills-content .right .python::before {
-    width: 85%;
-  }
-  
-  .skills-content .right .html::before {
     width: 90%;
   }
   
-  .skills-content .right .css::before {
-    width: 80%;
-  }
-  
-  .skills-content .right .js::before {
-    width: 75%;
-  }
-  
-  .skills-content .right .bootstraps::before {
+  .skills-content .right .html::before {
     width: 85%;
   }
   
+  .skills-content .right .css::before {
+    width: 90%;
+  }
+  
+  .skills-content .right .js::before {
+    width: 80%;
+  }
+  
+  .skills-content .right .bootstraps::before {
+    width: 90%;
+  }
+  
   .skills-content .right .django::before {
-    width: 70%;
+    width: 85%;
+  }
+  
+  .skills-content .right .djang::before {
+    width: 80%;
   }
   
   /*  Projects  */
