@@ -53,8 +53,9 @@ $(document).ready(function () {
   var typed = new Typed(".typing-2", {
     strings: [
       "Web 3.0 Developer",
-      "Software Developer",
-      "App Developer",
+      "MERN Stack Developer",
+      "React Native Developer",
+      "WordPress Developer",
     ],
     typeSpeed: 100,
     backSpeed: 60,
